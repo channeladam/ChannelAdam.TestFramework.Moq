@@ -15,11 +15,12 @@
 // limitations under the License.
 //-----------------------------------------------------------------------
 
-namespace ChannelAdam.TestFramework.Abstractions
+namespace ChannelAdam.TestFramework.Moq.Abstractions
 {
     using ChannelAdam.Logging;
     using ChannelAdam.Logging.Abstractions;
-    using Moq;
+    using ChannelAdam.TestFramework.Abstractions;
+    using global::Moq;
 
     /// <summary>
     /// Abstract class to inherit for using Moq.
